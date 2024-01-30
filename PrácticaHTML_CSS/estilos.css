@@ -1,0 +1,40 @@
+/* estilos.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .nav {
+    background-color: #1489a6;
+    padding: 10px;
+  }
+  
+p{
+    text-align:justify;
+    color:rgb(114, 67, 6);
+    width: 700px;
+}
+
+th, td{
+    text-align:justify;
+    color:rgb(129, 39, 108);
+    max-width: 500px;
+    border: 1px solid #d93e14; /* Añadir un borde entre*/
+}
+table {
+    background-color: rgb(237, 212, 112); /* Cambia el color de fondo */
+    border-collapse: collapse;
+}
+
+#contacto + label{
+    font-family:'Times New Roman', serif;
+    margin: 20px;
+}
+
+button{
+    font-family:fantasy;
+    background-color: rgb(236, 168, 203);
+    font-weight: bold;
+    font-size: 20px;
+}

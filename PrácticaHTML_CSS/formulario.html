@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto</title>
+  <link rel="stylesheet" href="estilos.css"> <!-- Enlace al archivo CSS -->
+</head>
+
+<body>
+  <div class="nav">
+  <main>
+      <form action="formulario.html" method="get">
+      <h2>Formulario</h2>
+      </div>
+        <label for="nombre">
+          Nombre: <input type="text" id="nombre" name="nombre" placeholder="escribe tu nombre" required>
+        </label>
+        <br>
+        <label for="correo">
+          Correo electrónico: <input type="mail" id="correo" name="correo" placeholder="ingresa tu correo" required>
+        </label>
+        <br>
+        <legend>Género:</legend>
+            <label><input id="masculino" type="radio" name="masc-fem" value="masculino" checked> Masculino</label>
+            <label><input id="femenino" type="radio" name="masc-fem" value="femenino"> Femenino</label>
+        <br>
+        <label for="contrasena">
+          Contraseña: <input type="password" id="contrasena" name="contrasena" placeholder="crea una contraseña" required>
+        </label>
+        <br>
+        <label for="comentario">
+          Comentario: <textarea type="text area" id="comentario" name="comentario" rows="3" cols="20"></textarea>
+        </label>
+        <br>
+        <label for="ciudad">Ciudad:
+          <select id="ciudad" name="ciudad" required>
+            <option value="Guadalajara">Guadalajara</option>
+            <option value="Zapopan">Zapopan</option>
+            <option value="Tonalá">Tonalá</option>
+            <option value="Tlaquepaque">Tlaquepaque</option>
+            <option value="París">París</option>
+            <option value="Nueva York">Nueva York</option>
+            <option value="Otro">Otro</option>
+          </select>
+        </label>
+        <br>
+        <input id="contacto" type="checkbox" name="contacto" value="contacto"> <label for="contacto">Me interesa contactarte</label>
+        <br>
+        <button type="submit">Enviar</button>
+      </form>
+  </main>
+</body>
+
+<footer>
+  <p>
+    <a href="index.html">Regresar al index</a> 
+  </p>
+</footer>
+</html>
